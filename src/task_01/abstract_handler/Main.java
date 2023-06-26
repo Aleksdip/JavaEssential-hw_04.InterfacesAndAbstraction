@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        
+
 //        create a reader for reading a document
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Available formats: doc, txt, xml. Enter the name of the document, with its extension." +
@@ -33,12 +33,6 @@ public class Main {
             newDocument.change();
             newDocument.save();
         } else System.out.println("Invalid format.");
-
-
-
-
-
-
 
     }
 }
